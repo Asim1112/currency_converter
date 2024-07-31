@@ -1,7 +1,8 @@
+#! /usr/bin/env node
 import inquirer from "inquirer"
 
 
-const rates: any = {
+const currency: any = {
     USD: 1,     // BAse Currency
     EUR:0.91,
     GBP: 0.76,

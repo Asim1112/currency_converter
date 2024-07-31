@@ -1,5 +1,5 @@
 {
-  "name": "currency_converter",
+  "name": "7229_currency_converter",
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
@@ -7,11 +7,14 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
+  "bin": "main.js",
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@types/inquirer": "^9.0.7",
-    "inquirer": "^10.1.2"
+    "inquirer": "^9.3.5"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
   }
 }
